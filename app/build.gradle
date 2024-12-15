@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdk 34
     defaultConfig {
         applicationId "sujeet.android.com.retrofitimplementation"
-        minSdkVersion 24
-        targetSdkVersion 28
+        minSdk 19
+        targetSdk 35
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -19,6 +19,7 @@ android {
     dataBinding {
         enabled = true
     }
+    namespace 'sujeet.android.com.retrofitimplementation'
 }
 
 dependencies {
